@@ -45,6 +45,7 @@ export default class MoveContainer<I,C,T:React.Component<any,any>> extends React
 
     return (
       <div
+        className="draggable-list-item"
         style={{
           position: y == null ? 'relative' : 'absolute',
           boxSizing: 'border-box',
